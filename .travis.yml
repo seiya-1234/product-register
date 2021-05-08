@@ -14,3 +14,4 @@ script:
   - docker-compose exec --env 'RAILS_ENV=test' web rails db:migrate
   # テストを実行
   - docker-compose exec --env 'RAILS_ENV=test' web rails test
+
